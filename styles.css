@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#app {
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.swap-container input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.swap-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

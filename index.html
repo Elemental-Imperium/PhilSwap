@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhilSwap</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>PhilSwap</h1>
+    <button id="loginButton">Connect MetaMask</button>
+    <div id="walletInfo" style="display: none;">
+      <p>Connected Wallet: <span id="walletAddress"></span></p>
+      <div class="swap-container">
+        <input id="tokenA" type="text" placeholder="Token A Address">
+        <input id="tokenB" type="text" placeholder="Token B Address">
+        <input id="amount" type="number" placeholder="Amount to Swap">
+        <button id="swapButton">Swap</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
